@@ -1,0 +1,38 @@
+.Header{
+    display: grid;
+    place-content: center;
+    
+}
+.MainContainer{
+    display: flex;
+    justify-content: space-evenly;
+background-color: white;
+padding: 20px;
+
+
+}
+.side1{
+    padding: 10px;
+    height:150px ;
+    width: 150px;
+    
+    border-style: solid;
+    border-color: black;
+    place-items: center;
+}
+h3{
+    place-content: center;
+}
+
+.circle {
+    margin: 10px;
+    place-content: center;
+    padding: 15px;
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    display: inline-block;
+  }
+ 
